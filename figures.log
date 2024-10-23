@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-23T10:24:56.450823525Z</date>
+  <millis>1729679096450</millis>
+  <nanos>823525</nanos>
+  <sequence>0</sequence>
+  <logger>Geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>Geometry2d.Rectangle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Rectangle created.</message>
+</record>
+<record>
+  <date>2024-10-23T10:24:56.480096902Z</date>
+  <millis>1729679096480</millis>
+  <nanos>96902</nanos>
+  <sequence>4</sequence>
+  <logger>Geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>Geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Area calculated.</message>
+</record>
+<record>
+  <date>2024-10-23T10:24:56.480354836Z</date>
+  <millis>1729679096480</millis>
+  <nanos>354836</nanos>
+  <sequence>5</sequence>
+  <logger>Geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>Geometry2d.Rectangle</class>
+  <method>perimeter</method>
+  <thread>1</thread>
+  <message>Perimeter calculated.</message>
+</record>
+<record>
+  <date>2024-10-23T10:24:56.480525451Z</date>
+  <millis>1729679096480</millis>
+  <nanos>525451</nanos>
+  <sequence>6</sequence>
+  <logger>Geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>Geometry2d.Rectangle</class>
+  <method>ToString</method>
+  <thread>1</thread>
+  <message>RectangleToString finished.</message>
+</record>
+</log>
