@@ -15,6 +15,10 @@ with ZipFile(sys.argv[1]) as myzip:
                 all_paths.add(dir_path)
 
     for path in sorted(all_paths):
+        if len(sys.argv) != 3:
+            print("Usage: python view_archive.py <arc_name>")
+            exit(1)
+
         items = path.rstrip("/").split("/")
 
         depth = len(items) - 1
